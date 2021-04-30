@@ -1,4 +1,16 @@
 body {
-  margin:0 !important;
-  padding:0;
+    margin: 0 !important;
+    padding: 0;
 }
+
+.card,
+.section2 {
+    margin-top: 10%;
+}
+
+
+/*.card img {
+    width: 30%;
+    height: 30%;
+    align-content: center;
+} */
