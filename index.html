@@ -19,11 +19,16 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <!-- <i class="fas fa-bars"></i> -->
-            <a class="navbar-brand" href="#">LogoTatooDesing</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+
+            <div class="col-md-9">
+                <a class="navbar-brand" href="#">Tattoo Desing</a>
+            
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <div class="col-md-3 collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Inicio</a>
@@ -39,55 +44,62 @@
                     </li>
                 </ul>
             </div>
+
         </div>
     </nav>
+
     <div class="container">
-        <div class="row">
+        <div class="row" id="carrusel" >
             <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
                     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
+                </div> 
+
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="10000">
-                        <img src="./Pedro/Categorías - descripcion inicio/Signos Zodiacales.png" class="d-block w-20" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
+                        <img src="./Agos/Tatuadores-banner.jpg" class="d-block w-20" alt="...">
+                        <!-- <div class="carousel-caption d-none d-md-block">
                             <h5>First slide label</h5>
                             <p>Some representative placeholder content for the first slide.</p>
-                        </div>
+                        </div> -->
                     </div>
-                    <div class="carousel-item" data-bs-interval="2000">
-                        <img src="./Pedro/Categorías - descripcion inicio/Signos Zodiacales.png" class="d-block w-20" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-item" data-bs-interval="6000">
+                        <img src="./Agos/Tendencias.jpg" class="d-block w-20" alt="...">
+                        <!-- <div class="carousel-caption d-none d-md-block">
                             <h5>Second slide label</h5>
                             <p>Some representative placeholder content for the second slide.</p>
-                        </div>
+                        </div> -->
                     </div>
-                    <div class="carousel-item">
-                        <img src="./Pedro/Categorías - descripcion inicio/Signos Zodiacales.png" class="d-block w-20" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
+                    <div class="carousel-item" data-bs-interval="4000">
+                        <img src="./Agos/trae-tu-diseño-1.jpg" class="d-block w-20" alt="...">
+                        <!-- <div class="carousel-caption d-none d-md-block">
                             <h5>Third slide label</h5>
                             <p>Some representative placeholder content for the third slide.</p>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+
+                <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Previous</span>
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="visually-hidden">Next</span>
-                </button>
+                </button> -->
+
             </div>
         </div>
+
         <div class="row section2 text-center">
-            <h3>
-                Ahora verás las categorias de nuestros tatuadores
-                <small class="text-muted">y sus mejores diseños</small>
-            </h3>
+            <h1>
+                Tattoo's
+            </h1>
         </div>
+
         <div class="row">
             <!-- <div class="card mb-3">
                 <img src="./Pedro/Categorías - Signos Zodiacales/Simbolos Celtas.PNG" class="card-img-top" alt="...">
@@ -97,23 +109,67 @@
                     <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                 </div>
             </div> -->
-            <div class="card mb-3" style="max-width: auto;">
+
+            <div id="Geometricos" class="card mb-3" style="max-width: auto;">
                 <div class="row g-0">
                     <div class="col-md-4">
-                        <img src="./Pedro/Categorías - descripcion inicio/Tatuajes Geometricos.PNG" alt="...">
+                        <img id="imagen" src="./Pedro/Categorías - descripcion inicio/Tatuajes Geometricos.PNG" alt="...">
                     </div>
                     <div class="col-md-8">
                         <div class="card-body">
-                            <h5 class="card-title">Geometricos</h5>
-                            <p class="card-text">Los tattoos geométricos son cada vez más populares. Y no es de extrañar, pues son originales, diferentes, sofisticados y estilosos. Sin embargo, además de todo eso también esconden un significado que seguro que no te esperas.
+                            <h1 class="card-title">Geometricos</h1> <br>
+                            <h5 id="descrip-gral" class="card-text">
+                                Los tattoos geométricos son cada vez más populares. Y no es de extrañar, pues son originales, diferentes, sofisticados y estilosos. Sin embargo, además de todo eso también esconden un significado que seguro que no te esperas.
                                 Y es evidente que para hacerse un nuevo tatuaje hay que estar bien seguro de lo que significa el diseño en cuestión. De manera que te contamos todo lo que necesitas saber sobre los tattoos geométricos y su simbolismo. ¡No
-                                pierdas detalle!</p>
-                            <p class="card-text"><small class="text-muted">Última actualización 3 minutos</small></p>
+                                pierdas detalle!
+                            </h5>
+                            <!-- <p class="card-text"><small class="text-muted">Última actualización 3 minutos</small></p> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="Celtas" class="card mb-3" style="max-width: auto;">
+                <div class="row g-0">
+                    <div class="col-md-9">
+                        <div class="card-body">
+                            <h1 class="card-title">Simbolos Celtas</h1> <br>
+                            <h5 id="descrip-gral" class="card-text">
+                                Si por algo han perdurado en el tiempo la simbología celta es gracias a su tradición y sobre todo 
+                                al fuerte simbolismo y la carga de energía que sus formas y geometría emana, siendo una fuente de 
+                                inspiración para los maestros del tatuaje.
+                            </h5 >
+                            <!-- <p class="card-text"><small class="text-muted">Última actualización 3 minutos</small></p> -->
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <img id="imagen" src="./Pedro/Categorías - descripcion inicio/Simbolos Celtas.PNG" alt="...">
+                    </div>
+                </div>
+            </div>
+
+            <div id="Zodiacales" class="card mb-3" style="max-width: auto;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img id="imagen" src="./Pedro/Categorías - descripcion inicio/Signos Zodiacales.PNG" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h1 class="card-title">Signos Zodiacales</h1> <br>
+                            <h5 id="descrip-gral" class="card-text">
+                                Si quieres hacerte un tatuaje, pero aún no te decides por un modelo, puedes revisar el significado 
+                                de tu signo zodiacal, como bien sabes cada uno posee un símbolo, animal o piedra que te puede servir 
+                                como inspiración. 
+                                Así que si crees en el horóscopo o los astros te invitamos a que conozcas algunas ideas de diseños 
+                                de tatuajes según tu signo del zodiaco.
+                            </h5>
+                            <!-- <p class="card-text"><small class="text-muted">Última actualización 3 minutos</small></p> -->
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
     </div>
 </body>
 
