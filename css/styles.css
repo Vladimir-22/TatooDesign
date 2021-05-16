@@ -49,6 +49,7 @@ nav
     right: 0% !important;
     top: 105% !important;
     bottom: 0% !important;
+    margin-top: 0% !important;
 }
 
 .carousel-inner
