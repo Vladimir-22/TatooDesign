@@ -40,6 +40,12 @@ h3 {
     text-align: center;
 }
 
+h6{
+    color: rgba(255, 255, 255, 0.171);
+    text-align: center;
+    font-weight:100;
+}
+
 
 /*.card img {
     width: 30%;
@@ -70,11 +76,14 @@ nav {
     top: 0% !important;
 }
 
-
+.footerLink {
+    color: rgb(223, 119, 119);
+    text-decoration: none;
+}
 
 #Geometricos,
 #Celtas,
-#Zodiacales {
+#Zodiacales{
     background: linear-gradient(270deg, #833131 50%, rgba(131, 49, 49, 0) 70.34%);
     border-radius: 4px;
 }
@@ -96,4 +105,9 @@ nav {
 #Celtas #imagen {
     right: 100% !important;
     top: 660px;
+}
+
+#footer {
+    background:  #ffffff1c;
+    border-radius: 2px;
 }
