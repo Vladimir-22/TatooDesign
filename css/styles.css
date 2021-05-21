@@ -76,7 +76,8 @@ nav {
     top: 0% !important;
 }
 
-#tatuador {    
+#tatuador,
+#nosotros {    
     background: none;
 }
 
@@ -84,7 +85,6 @@ nav {
     width: 290px;
     height: 336px;
 }
-
 
 #tatuador #imagenesTrabajos {
     width: 240px;
@@ -96,11 +96,6 @@ nav {
 #Zodiacales{
     background: linear-gradient(270deg, #833131 50%, rgba(131, 49, 49, 0) 70.34%);
     border-radius: 4px;
-}
-
-#nosotros
-{
-    background: none;
 }
 
 #descrip-gral {
