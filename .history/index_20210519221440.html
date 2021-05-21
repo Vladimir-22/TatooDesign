@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+      integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+      integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Tattoo Desing</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <!-- <i class="fas fa-bars"></i> -->
+
+        <div class="col-md-9">
+          <a class="navbar-brand" href="#">Tattoo Desing</a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+
+        <div class="col-md-3 collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">INICIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tattoo's.html">Tattoo's</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tatuadores.html">Tatuadores</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="nosotros.html"
+                tabindex="-1"
+                aria-disabled="true"
+                >Nosotros</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <div class="row" id="carrusel">
+        <div
+          id="carouselExampleDark"
+          class="carousel carousel-dark slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img
+                id="imgCarrusel"
+                src="./Agos/Carrusel/trae-tu-diseño.png"
+                class="d-block w-20"
+                alt="..."
+              />
+              <!-- <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div> -->
+            </div>
+            <div class="carousel-item" data-bs-interval="4000">
+              <img
+                id="imgCarrusel"
+                src="./Agos/Carrusel/Tendencias.png"
+                class="d-block w-20"
+                alt="..."
+              />
+              <!-- <div class="carousel-caption d-none d-md-block">
+                            <h5>Second slide label</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                        </div> -->
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img
+                id="imgCarrusel"
+                src="./Agos/Carrusel/Tatuadores-banner.png"
+                class="d-block w-20"
+                alt="..."
+              />
+              <!-- <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div> -->
+            </div>
+          </div>
+
+          <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button> -->
+        </div>
+      </div>
+
+      <div class="row section2 text-center">
+        <h1>Tattoo's</h1>
+      </div>
+
+      <div class="row">
+        <!-- <div class="card mb-3">
+                <img src="./Pedro/Categorías - Signos Zodiacales/Simbolos Celtas.PNG" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div> -->
+
+        <div id="Geometricos" class="card mb-3" style="max-width: auto">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                id="imagen"
+                src="./Pedro/Categorías - descripcion inicio/Tatuajes Geometricos.jpg"
+                alt="..."
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h1 class="card-title">Geometricos</h1>
+                <br />
+                <h5 id="descrip-gral" class="card-text">
+                  Los tattoos geométricos son cada vez más populares. Y no es de
+                  extrañar, pues son originales, diferentes, sofisticados y
+                  estilosos. Sin embargo, además de todo eso también esconden un
+                  significado que seguro que no te esperas. Y es evidente que
+                  para hacerse un nuevo tatuaje hay que estar bien seguro de lo
+                  que significa el diseño en cuestión. De manera que te contamos
+                  todo lo que necesitas saber sobre los tattoos geométricos y su
+                  simbolismo. ¡No pierdas detalle!
+                </h5>
+                <!-- <p class="card-text"><small class="text-muted">Última actualización 3 minutos</small></p> -->
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="Celtas" class="card mb-3" style="max-width: auto">
+          <div class="row g-0">
+            <div class="col-md-9">
+              <div class="card-body">
+                <h1 class="card-title">Simbolos Celtas</h1>
+                <br />
+                <h5 id="descrip-gral" class="card-text">
+                  Si por algo han perdurado en el tiempo la simbología celta es
+                  gracias a su tradición y sobre todo al fuerte simbolismo y la
+                  carga de energía que sus formas y geometría emana, siendo una
+                  fuente de inspiración para los maestros del tatuaje.
+                </h5>
+                <!-- <p class="card-text"><small class="text-muted">Última actualización 3 minutos</small></p> -->
+              </div>
+            </div>
+            <div class="col-md-3">
+              <img
+                id="imagen"
+                src="./Pedro/Categorías - descripcion inicio/Simbolos Celtas.jpg"
+                alt="..."
+              />
+            </div>
+          </div>
+        </div>
+
+        <div id="Zodiacales" class="card mb-3" style="max-width: auto">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                id="imagen"
+                src="./Pedro/Categorías - descripcion inicio/Signos Zodiacales.jpg"
+                alt="..."
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h1 class="card-title">Signos Zodiacales</h1>
+                <br />
+                <h5 id="descrip-gral" class="card-text">
+                  Si quieres hacerte un tatuaje, pero aún no te decides por un
+                  modelo, puedes revisar el significado de tu signo zodiacal,
+                  como bien sabes cada uno posee un símbolo, animal o piedra que
+                  te puede servir como inspiración. Así que si crees en el
+                  horóscopo o los astros te invitamos a que conozcas algunas
+                  ideas de diseños de tatuajes según tu signo del zodiaco.
+                </h5>
+                <!-- <p class="card-text"><small class="text-muted">Última actualización 3 minutos</small></p> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <div class="footer" id="footer">
+      <div id="footer" class="card mb-3" style="auto"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                        <a class="nav-link active" aria-current="page" href="#">INICIO</a>
+                    </div>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-6"></div>
+                <div class="col-md-6">
+                    <h3 id="descrip-gral" class="card-text">
+                        Esta página esta creada para aquellos que buscan realizarse un
+                        tatuaje y no saben que hacerse o en donde.En ella vas a
+                        encontrar a los mejores tatuadores de San Juan.<br />
+                        Domicilio: Calle falsa 123<br />
+                        Telefono: (541) 754-3010<br />
+                        Correo: Desingtatto@hsdf.com<br />
+                    </h3>
+                </div>
+                <div class="col-md-6"></div>
+                <div class="col-md-6"></div>
+                <div class="col-md-6"></div>
+                <div class="col-md-6"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-2"></div>
+                <div class="col-md-2">
+                    <a class="nav-link" href="nosotros.html" tabindex="-1" aria-disabled="true" >Nosotros</a>
+                </div>
+            </div>
+      </div>
+    </div>
+  </footer>
+</html>
