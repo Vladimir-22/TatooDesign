@@ -70,7 +70,20 @@ nav {
     top: 0% !important;
 }
 
+#tatuador {    
+    background: none;
+}
 
+#tatuador #imagenes {
+    width: 290px;
+    height: 336px;
+}
+
+
+#tatuador #imagenesTrabajos {
+    width: 240px;
+    height: 300px;
+}
 
 #Geometricos,
 #Celtas,
