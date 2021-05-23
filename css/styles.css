@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
 body {
     margin: 0 !important;
     padding: 0;
@@ -8,7 +9,8 @@ body {
     background-image: url(../Daniela/Background.png);
     background-position: center;
     background-size: contain;
-    /* font-family: NanumGothic; */
+    overflow-x: hidden;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 .section2 {
@@ -39,11 +41,11 @@ h3 {
     color: white;
     text-align: center;
 }
-
+h5,
 h6{
     color: rgba(255, 255, 255, 0.171);
     text-align: center;
-    font-weight:100;
+    font-weight: 100;
 }
 
 
@@ -76,8 +78,12 @@ nav {
     top: 0% !important;
 }
 
+#fondo-tatuador{
+    background: linear-gradient(180deg, rgba(131, 49, 49, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+    border-radius: 4px;
+}
 #tatuador,
-#nosotros {    
+#nosotros {
     background: none;
 }
 
@@ -93,18 +99,19 @@ nav {
 
 #Geometricos,
 #Celtas,
-#Zodiacales{
+#Zodiacales {
     background: linear-gradient(270deg, #833131 50%, rgba(131, 49, 49, 0) 70.34%);
     border-radius: 4px;
 }
 
 #descrip-gral {
     color: white;
+    font-size: 18px;
 }
 
 #imagen {
-    width: 273px;
-    height: 336px;
+    max-width: 273px;
+    max-height: 336px;
 }
 
 #Celtas #imagen {
@@ -113,6 +120,12 @@ nav {
 }
 
 #footer {
-    background:  #ffffff1c;
+    background: #ffffff1c;
     border-radius: 2px;
+}
+
+.foot {
+    font-size: 12px !important;
+    color: white !important;
+    text-align: center;
 }
