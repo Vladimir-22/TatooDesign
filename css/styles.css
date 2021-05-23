@@ -8,6 +8,7 @@ body {
     background-image: url(../Daniela/Background.png);
     background-position: center;
     background-size: contain;
+    overflow-x: hidden;
     /* font-family: NanumGothic; */
 }
 
@@ -40,10 +41,10 @@ h3 {
     text-align: center;
 }
 
-h6{
+h6 {
     color: rgba(255, 255, 255, 0.171);
     text-align: center;
-    font-weight:100;
+    font-weight: 100;
 }
 
 
@@ -77,7 +78,7 @@ nav {
 }
 
 #tatuador,
-#nosotros {    
+#nosotros {
     background: none;
 }
 
@@ -93,7 +94,7 @@ nav {
 
 #Geometricos,
 #Celtas,
-#Zodiacales{
+#Zodiacales {
     background: linear-gradient(270deg, #833131 50%, rgba(131, 49, 49, 0) 70.34%);
     border-radius: 4px;
 }
@@ -103,8 +104,8 @@ nav {
 }
 
 #imagen {
-    width: 273px;
-    height: 336px;
+    max-width: 273px;
+    max-height: 336px;
 }
 
 #Celtas #imagen {
@@ -113,6 +114,6 @@ nav {
 }
 
 #footer {
-    background:  #ffffff1c;
+    background: #ffffff1c;
     border-radius: 2px;
 }
