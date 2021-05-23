@@ -114,7 +114,27 @@ nav {
     max-height: 336px;
 }
 
-#Celtas #imagen {
+#imagen-categoria,
+#imagen-categoria-izquierda{    
+    max-width: 310px;
+    max-height: 380px;
+}
+
+#imagen-categoria-izquierda{
+    left: 10% !important;
+    top: 0px;
+    position: relative;
+}
+
+#imagen-subcategoria{
+    
+    max-width: 200px;
+    max-height: 260px;
+}
+
+#Celtas #imagen-index {    
+    max-width: 273px;
+    max-height: 336px;
     right: 100% !important;
     top: 660px;
 }
