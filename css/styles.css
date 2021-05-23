@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
 body {
     margin: 0 !important;
     padding: 0;
@@ -9,7 +10,7 @@ body {
     background-position: center;
     background-size: contain;
     overflow-x: hidden;
-    /* font-family: NanumGothic; */
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 .section2 {
@@ -101,6 +102,7 @@ nav {
 
 #descrip-gral {
     color: white;
+    font-size: 18px;
 }
 
 #imagen {
@@ -116,4 +118,10 @@ nav {
 #footer {
     background: #ffffff1c;
     border-radius: 2px;
+}
+
+.foot {
+    font-size: 12px !important;
+    color: white !important;
+    text-align: center;
 }
