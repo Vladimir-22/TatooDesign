@@ -64,6 +64,17 @@ nav {
     background: #000000 !important;
 }
 
+#logo{    
+    width: 46px;
+    height: 46px;
+}
+
+#logo-tatuador{
+    border-radius: 40px;
+    max-width: 80px;
+    max-height: 50px;
+}
+
 .carousel-indicators {
     left: 0% !important;
     right: 0% !important;
