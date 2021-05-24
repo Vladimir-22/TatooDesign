@@ -13,6 +13,14 @@ body {
     font-family: 'Nanum Gothic', sans-serif;
 }
 
+img {
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
 .section2 {
     margin-top: 7%;
     color: white;
@@ -41,8 +49,9 @@ h3 {
     color: white;
     text-align: center;
 }
+
 h5,
-h6{
+h6 {
     color: rgba(255, 255, 255, 0.171);
     text-align: center;
     font-weight: 100;
@@ -64,12 +73,12 @@ nav {
     background: #000000 !important;
 }
 
-#logo{    
+#logo {
     width: 46px;
     height: 46px;
 }
 
-#logo-tatuador{
+#logo-tatuador {
     border-radius: 40px;
     max-width: 80px;
     max-height: 50px;
@@ -89,10 +98,11 @@ nav {
     top: 0% !important;
 }
 
-#fondo-tatuador{
+#fondo-tatuador {
     background: linear-gradient(180deg, rgba(131, 49, 49, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
     border-radius: 4px;
 }
+
 #tatuador,
 #nosotros {
     background: none;
@@ -126,24 +136,23 @@ nav {
 }
 
 #imagen-categoria,
-#imagen-categoria-izquierda{    
+#imagen-categoria-izquierda {
     max-width: 310px;
     max-height: 380px;
 }
 
-#imagen-categoria-izquierda{
+#imagen-categoria-izquierda {
     left: 10% !important;
     top: 0px;
     position: relative;
 }
 
-#imagen-subcategoria{
-    
+#imagen-subcategoria {
     max-width: 200px;
     max-height: 260px;
 }
 
-#Celtas #imagen-index {    
+#Celtas #imagen-index {
     max-width: 273px;
     max-height: 336px;
     right: 100% !important;
