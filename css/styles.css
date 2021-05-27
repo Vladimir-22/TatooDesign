@@ -20,7 +20,12 @@ img {
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
 }
-
+#boton-carrusel{
+    background-color: #833131;
+    border: 0px solid #833131;
+    border-radius: 20px !important;
+    padding-top: 3%;
+}
 .section2 {
     margin-top: 7%;
     color: white;
